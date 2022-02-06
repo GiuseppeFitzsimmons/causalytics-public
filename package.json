@@ -1,0 +1,36 @@
+{
+  "name": "causalytics",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "serve-local": "export VUE_APP_MODE=local; vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "chart.js": "2.9.4",
+    "core-js": "^3.6.5",
+    "cors": "^2.8.5",
+    "dotenv": "^15.0.0",
+    "fb": "^2.0.0",
+    "vue": "^2.6.11",
+    "vue-chartjs": "^3.5.1",
+    "vuetify": "^2.4.0",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~4.5.0",
+    "@vue/test-utils": "^1.3.0",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.4.5",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.7.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
